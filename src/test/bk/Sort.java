@@ -138,6 +138,9 @@ public class Sort {
 		System.out.println();
 	}
 	
+	// Average O(n log n)
+	// Worst O(n2)
+	// Constant space
 	public void quickSort(int[] arr, int start, int end){
 		if(start < end){
 			int pIndex = partition(arr, start, end);
